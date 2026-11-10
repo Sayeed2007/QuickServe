@@ -192,3 +192,4 @@ dialog::backdrop{background:rgba(3,4,14,.75);backdrop-filter:blur(6px)}dialog[op
 @media(max-width:1000px){.three{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start}}
 @media(max-width:760px){.sys,.hud .live{display:none}.side button.on::before{display:none}.top{flex-direction:column;align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+#banner {display:none!important;}
