@@ -5,7 +5,7 @@ const SEED = {"categories":[{"id":1,"name":"Coffee","icon":"☕"},{"id":2,"name"
 
 const Api = (() => {
   const BASE = 'http://localhost:3000';
-  let offline = ! ['localhost','127.0.0.1'].inculdes(location.hostname) , mem = null;
+  let offline = false , mem = null;
 
   const read = () => {
     try { mem = JSON.parse(localStorage.getItem('qs_db')) || mem; } catch {}
